@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(245, 153, 190);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedortitulo{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.titulo{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    color:rgb(1, 7, 8);
+    background-color:#c96083;
+    border-radius: 3px;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    margin-right:5px;
+    margin-left: 5px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #ec2370;
+}
+
+.imgDisney{
+    width: 550px;
+    height: 350px;
+}
+
